@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/imslayout"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/team" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="262dp"
+        android:layout_marginTop="300dp"
+        android:gravity="center_horizontal"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btnStudent"
+            android:layout_width="219dp"
+            android:layout_height="55dp"
+            android:drawableLeft="@drawable/studentimg"
+            android:text="Student" />
+
+        <Button
+            android:id="@+id/btnFaculty"
+            android:layout_width="219dp"
+            android:layout_height="55dp"
+            android:drawableLeft="@drawable/facultyimg"
+            android:text="Faculty" />
+    </LinearLayout>
+
+</RelativeLayout>
